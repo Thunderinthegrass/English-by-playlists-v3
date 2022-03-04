@@ -1,0 +1,78 @@
+const wordRusText = document.querySelectorAll('.word__rus-text');
+
+let lesson2Rus = [
+  "Я люблю тебя",
+	"Мы хотим этого",
+	"Она также думает так",
+	"Она работает очень усердно",
+	"Ты работаешь очень усердно",
+	"Они учатся очень усердно",
+	"Он живёт там",
+	"Она чувствует себя счастливой",
+	"Я чувствую себя счастливым",
+	"Это помогает мне",
+	"Он также работает здесь",
+	"Он думает так",
+	"Он живёт в этом доме",
+	"Она помнит это",
+	"Она живёт в этом месте",
+	"Она живёт в том месте",
+	"Она говорит по-английски очень хорошо",
+	"Это реально помогает мне",
+	"Это выглядит интересно",
+	"Это кажется интересным",
+	"Он читает на английском",
+	"Она читает английские книги",
+	"Это выглядит странно",
+	"Он знает это",
+	"Он понимает тебя очень хорошо",
+	"Она видит эту ошибку",
+	"Он видит ту ошибку",
+	"Это случается(происходит)",
+	"Он хочет больше практики",
+	"Это действительно происходит",
+	"Она любит тебя",
+	"Он хочет большего",
+]
+
+const wordEngText = document.querySelectorAll('.word__eng-text');
+
+let lesson2Eng = [
+	"I love you",
+	"We want it",
+	"The also thinks so",
+	"She works very hard",
+	"You work very hard",
+	"They study very hard",
+	"He leaves there",
+	"She feels happy",
+	"I feel happy",
+	"It helps me",
+	"He also works here",
+	"He thinks so",
+	"He leaves in this house",
+	"She remembers it",
+	"She leaves in this place",
+	"She leaves in that place",
+	"She speaks English very well",
+	"It really helps me",
+	"It looks interesting",
+	"It seems interesting",
+	"He reeds in English",
+	"She reeds English books",
+	"It looks strange",
+	"He khows it",
+	"He understands you very well",
+	"She sees this mistake",
+	"He sees that mistake",
+	"It heppens",
+	"He wants more practice",
+	"It really happens",
+	"She loves you",
+	"He wants more",
+]
+
+	for (let i = 0; i < wordRusText.length; i++) {
+		wordRusText[i].textContent = lesson2Rus[i];
+		wordEngText[i].textContent = lesson2Eng[i];
+	}
